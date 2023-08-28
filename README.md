@@ -1,4 +1,6 @@
-Pastikan Anda nambahkan file javascript pada `README.md` master agar bekerja pada index.html lalu tambahkan pada bagian body index.html :
+## Pastikan Anda nambahkan file javascript pada `README.md` master agar bekerja pada index.html lalu tambahkan pada bagian body index.html :
+
+## Pastikan sudah memiliki akun sepolia testnet ethereum pada metamask/daftar disini : https://www.alchemy.com/overviews/how-to-add-sepolia-to-metamask
 
 ## Mengatur Kontrak Pintar dan Provider
 
