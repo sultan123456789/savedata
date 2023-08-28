@@ -27,7 +27,7 @@ Anda memiliki dua fungsi utama yang dapat digunakan:
 
 1. **getMood():** Fungsi ini akan mengambil data mood, nama, dan alamat yang tersimpan di kontrak dan menampilkannya di konsol browser Anda.
 
-'''
+```
  async function getMood() {
           const moodPromise = MoodContract.getMood();
           const namePromise = MoodContract.name();
@@ -37,12 +37,12 @@ Anda memiliki dua fungsi utama yang dapat digunakan:
          // const tx = await provider.getTransactionReceipt(txHash);
           //console.log(`Transaction hash: ${tx.hash}`);
         }
-'''
+```
 
 
 3. **setData():** Fungsi ini memungkinkan Anda untuk mengatur data mood, nama, dan alamat dengan memanggil fungsi `setMood()` pada kontrak. Isikan nilai mood, nama, dan alamat di bidang input pada halaman HTML Anda, kemudian klik tombol "Set Data" untuk mengirim data baru ke kontrak.
 
-'''
+```
  async function setData() {
           const mood = document.getElementById("mood").value;
           const name = document.getElementById("name").value;
@@ -52,7 +52,7 @@ Anda memiliki dua fungsi utama yang dapat digunakan:
           await setMoodPromise;
           console.log(`Transaction hash: ${tx.hash}`);
         }
-'''
+```
 
 ## Menjalankan Aplikasi
 
@@ -68,7 +68,7 @@ Aplikasi ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE)
 
 ## Full Script
 
-'''
+```
 <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
       <script>
         const provider = new ethers.providers.Web3Provider(
@@ -189,4 +189,4 @@ Aplikasi ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE)
         }
         </script>
       <script src="app.js"></script>
-'''
+```
