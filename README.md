@@ -1,21 +1,4 @@
-Pastikan Anda memiliki file `README.md` yang ingin Anda perbarui. Berikut ini adalah penambahan kode program pada bagian README untuk menggambarkan bagaimana Anda bisa menggunakan kode JavaScript tersebut:
-
-```markdown
-# DApp Penyimpanan Mood
-
-Ini adalah proyek DApp sederhana yang memanfaatkan kontrak pintar Ethereum untuk menyimpan dan mengambil data suasana hati (mood).
-
-## Prasyarat
-
-Sebelum Anda mulai, pastikan Anda memiliki koneksi internet yang stabil dan terhubung ke wallet Ethereum melalui browser Anda.
-
-## Mengimpor Dependencies
-
-Untuk menjalankan aplikasi ini, Anda perlu mengimpor pustaka ethers.js yang diperlukan. Tambahkan kode berikut di bagian `<head>` dari file HTML Anda:
-
-```html
-<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
-```
+Pastikan Anda nambahkan file javascript pada `README.md` master agar bekerja pada index.html lalu tambahkan pada bagian body index.html :
 
 ## Mengatur Kontrak Pintar dan Provider
 
